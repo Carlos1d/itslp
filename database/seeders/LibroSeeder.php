@@ -16,7 +16,7 @@ class LibroSeeder extends Seeder
     {
        DB::table('libro')->insert([
        	'nombre'=>'Servidores',
-       	'autor'=>'Luis ',
+       	'autor'=>'Luis',
        ]);
        DB::table('libro')->insert([
        	'nombre'=>'Hola mundo',
